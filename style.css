@@ -5,14 +5,51 @@ body{
         font-family: 'Source Sans Pro', sans-serif;
        }
 
-        h1,h2{
+        h2{
           color: rgb(22, 22, 97);
           font-family: 'Roboto Slab', sans-serif;
         }
         
       img{
-        border-radius: 5%;
+        border-radius: 50%;
+        height: 5cm;
+        width: 5cm;
+        position:relative;
+        left: 550px;  
+        padding: 1px;
+        background-color: rgb(22, 22, 97)
+           }
+
+      h1{
+         text-align: center;
+         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+         color: rgb(22, 22, 97);
+         margin-bottom: 1cm;
+         margin-top: 1cm;
       }
 
-    
+.apresentacao{
+    position: absolute;
+    top: 120px;
+    left: 800px;
+    width:500px;
+    text-align: justify;
+    font-size: 17px;
+}
+ .hci{
+   position: absolute;
+   left: 550px;
+   margin-top: 1cm;
+   text-align: justify;
+   font-size: 17px;
+
+ }
+
+ul{
+    list-style:square; 
+}
+
+ol li:nth-child(2n+2):hover{
+    font-weight: bold;
+}
   
