@@ -1,0 +1,18 @@
+
+body{
+        background-color:whitesmoke;
+        color: black;
+        font-family: 'Source Sans Pro', sans-serif;
+       }
+
+        h1,h2{
+          color: rgb(22, 22, 97);
+          font-family: 'Roboto Slab', sans-serif;
+        }
+        
+      img{
+        border-radius: 5%;
+      }
+
+    
+  
